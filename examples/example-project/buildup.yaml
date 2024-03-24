@@ -1,0 +1,8 @@
+echo:
+  builder: "echo"
+  input: "hello world"
+
+for-main:
+  builder: CommonJS
+  input: src/index.ts
+  output: dist/index.js

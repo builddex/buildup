@@ -1,0 +1,20 @@
+{
+  "name": "@buildup/core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "tsc": "npx --yes tsc",
+    "postinstall": "npm run tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@buildup/devkit": "workspace:*",
+    "yaml": "^2.4.1"
+  }
+}

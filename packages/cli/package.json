@@ -1,0 +1,17 @@
+{
+  "name": "@buildup/cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/bin/buildup.js",
+  "scripts": {
+    "tsc": "npx --yes tsc",
+    "postinstall": "npm run tsc"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "@buildup/core": "workspace:*"
+  }
+}
